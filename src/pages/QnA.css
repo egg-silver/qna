@@ -1,0 +1,70 @@
+.qna-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.loading-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.complaints-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.complaints-table th,
+.complaints-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.complaints-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.complaints-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.complaints-table tr {
+  cursor: pointer;
+  transition: background-color 0.2s;
+  text-align: center; /* 가운데 정렬 */
+}
+
+.complaints-table tr:hover {
+  background-color: #e0e0e0;
+}
+
+.pagination {
+  margin-top: 20px;
+  text-align: center; /* 가운데 정렬 */
+}
+
+.pagination button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+.pagination button:hover {
+  text-decoration: underline;
+}
+
+.page-number {
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+.page-number:hover {
+  font-weight: bold;
+}

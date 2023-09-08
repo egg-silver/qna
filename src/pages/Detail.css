@@ -1,0 +1,44 @@
+.detail-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.detail-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.detail-info {
+  margin-bottom: 10px;
+}
+
+.detail-content {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.detail-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.detail-button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:active {
+    filter: brightness(80%);
+  }
+}
